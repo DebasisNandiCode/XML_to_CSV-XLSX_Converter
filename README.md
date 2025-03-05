@@ -18,9 +18,9 @@ Run the script to convert an XML-based .xls file:
 python script.py
 
 🔹 Key Steps:
-File Validation: Checks if the input .xls file exists
-Parsing XML: Reads XML using ElementTree
-Namespace Handling: Extracts data using correct Excel XML namespace
-Data Extraction: Iterates through <Row> and <Cell> elements
-Data Formatting: Cleans and structures into a Pandas DataFrame
-Saving Output: Exports data as CSV and Excel (.xlsx)
+* File Validation: Checks if the input .xls file exists
+** Parsing XML: Reads XML using ElementTree
+*** Namespace Handling: Extracts data using correct Excel XML namespace
+**** Data Extraction: Iterates through <Row> and <Cell> elements
+***** Data Formatting: Cleans and structures into a Pandas DataFrame
+****** Saving Output: Exports data as CSV and Excel (.xlsx)
